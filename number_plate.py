@@ -5,7 +5,7 @@ from tkinter import filedialog
 import shutil
 
 # Path to the Haar Cascade model for license plate detection
-plate_cascade_path = "model/haarcascade_iranin_plate_number.xml"
+plate_cascade_path = "./haarcascade_iranin_plate_number.xml"
 
 # Output directory to save the extracted license plates
 output_dir = "plates"
